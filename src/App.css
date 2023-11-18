@@ -1,0 +1,125 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; /* Set your desired background color */
+  padding: 10px;
+}
+
+button {
+  color: white; /* Set the text color */
+  background-color: #555; /* Set the default button background color */
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+button.active {
+  background-color: #777; /* Set the active button background color */
+}
+
+button:hover {
+  background-color: #666; /* Set the hover button background color */
+}
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+/* Styles for the search container */
+div {
+  margin: 10px 0;
+}
+
+/* Styles for the search label */
+label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #333; /* Set the label text color */
+}
+
+/* Styles for the search input */
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc; /* Set the input border color */
+  border-radius: 4px;
+  width: 200px; /* Set the input width */
+}
+
+/* Additional styling as needed */
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+/* Styles for the card container */
+div.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Styles for individual cards */
+div.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  background-color: #fff; /* Set the card background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 4px;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+div.card:hover {
+  transform: translateY(-5px); /* Add a lift effect on hover */
+}
+
+/* Styles for the card type */
+div.card > div:first-child {
+  top: 10px;
+  right: 10px;
+  background-color: #ac1313f0; /* Set the card type background color */
+  color: #fff; /* Set the card type text color */
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Styles for card details */
+div.card > div:not(:first-child) {
+  margin-top: 10px;
+  color: cadetblue; /* Set the text color for card details */
+}
+
+/* Additional styling as needed */
+/* FilterBox.css */
+
+.filter-box-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.action-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
