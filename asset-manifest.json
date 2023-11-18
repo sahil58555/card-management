@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cardmanagement/static/css/main.02615b4c.css",
-    "main.js": "/cardmanagement/static/js/main.065bdba0.js",
-    "static/js/787.38f16daf.chunk.js": "/cardmanagement/static/js/787.38f16daf.chunk.js",
-    "index.html": "/cardmanagement/index.html",
-    "main.02615b4c.css.map": "/cardmanagement/static/css/main.02615b4c.css.map",
-    "main.065bdba0.js.map": "/cardmanagement/static/js/main.065bdba0.js.map",
-    "787.38f16daf.chunk.js.map": "/cardmanagement/static/js/787.38f16daf.chunk.js.map"
+    "main.css": "/card-management/static/css/main.02615b4c.css",
+    "main.js": "/card-management/static/js/main.db123869.js",
+    "static/js/787.38f16daf.chunk.js": "/card-management/static/js/787.38f16daf.chunk.js",
+    "index.html": "/card-management/index.html",
+    "main.02615b4c.css.map": "/card-management/static/css/main.02615b4c.css.map",
+    "main.db123869.js.map": "/card-management/static/js/main.db123869.js.map",
+    "787.38f16daf.chunk.js.map": "/card-management/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02615b4c.css",
-    "static/js/main.065bdba0.js"
+    "static/js/main.db123869.js"
   ]
 }
